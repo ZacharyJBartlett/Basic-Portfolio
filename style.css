@@ -31,100 +31,6 @@ h1 {
     overflow: auto
 }
 
-#about {
-    float: right;
-    position: relative;
-    font-family: 'georgia', times, 'times new roman', serif;
-    color: gray;
-    overflow: auto
-}
-
-#port {
-    float: right;
-    position: relative;
-    font-family: 'georgia', times, 'times new roman', serif;
-    color: gray;
-    overflow: auto
-}
-
-#con {
-    float: right;
-    position: relative;
-    font-family: 'georgia', times, 'times new roman', serif;
-    color: gray;
-    overflow: auto
-}
-
-#self {
-    width: 33%;
-    height: 33%;
-    padding-left: 20px;
-    float: left;
-    padding-right: 20px;
-    padding-bottom: 20px;
-}
-
-#info {
-    font-weight: bold;
-    font-family: 'georgia', times, "times new roman", serif;
-    color: #4aaaa5;
-    border-bottom-color: solid;
-    padding-left: 40px;
-}
-
-#aboutme {
-    border-color: #dddddd;
-    border: solid;
-    margin-left: 33%;
-    width: 500px;
-    overflow: auto;
-    background-color: white;
-}
-
-p {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
-    line-height: 30px;
-    color: #777777;
-}
-
-#connects {
-    float: right;
-    border-style: solid;
-    border-color: #dddddd;
-    position: relative;
-    left: 400px;
-    bottom: 725px;
-    padding: 20px;
-    padding-top: 10px;
-    overflow: auto;
-    background-color: white;
-}
-
-#htwo {
-    color: #4aaaa5;
-    font-family: 'georgia', times, 'times new roman', serif;
-    font-size: 20px;
-    background-color: white;
-}
-
-#fb {
-    width: 50px;
-    height: 50px;
-    padding-right: 5px;
-}
-
-#linkdin {
-    width: 50px;
-    height: 50px
-}
-
-#github {
-    width: 50px;
-    height: 50px
-}
-
 footer {
     float: left;
     overflow: auto;
@@ -137,68 +43,34 @@ footer {
     border-width: 5px;
 }
 
-#foot {
-    text-align: center;
-    color: white;
-    padding-top: 5px;
+p {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 30px;
+    color: #777777;
 }
 
-#form {
-    float: left;
+/* portfolio css */
+#portfolio {
+    border-style: solid;
     overflow: auto;
-    width: 75%;
-    border: solid;
-    margin-left: 25%;
-    padding-left: 25px;
-    padding-bottom: 10px;
-    padding-right: 10px;
+    width: 470px;
+    height: 800px;
+    position: relative;
+    left: 75px;
     border-color: #dddddd
 }
 
-#message {
-    width: 75%;
-    height: 200px;
-}
 
-#name2 {
-    width: 75%;
-}
-
-#email {
-    width: 75%;
-}
-
-.name {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    color: #777777
-}
-
-h2 {
-    font-weight: bold;
-    font-family: 'georgia', times, "times new roman", serif;
-    color: #4aaaa5;
-    border-bottom-color: solid;
-    padding-left: 40px;
-}
-
-#connect {
-    float: left;
-    overflow: auto;
-    border-style: solid;
+#aboutme {
     border-color: #dddddd;
-    position: relative;
-    left: 1150px;
-    bottom: 450px;
-    padding: 20px;
-    padding-top: 10px;
+    border: solid;
+    margin-left: 33%;
+    width: 500px;
+    overflow: auto;
     background-color: white;
 }
-
-#footer {
-    float: left;
-    overflow: auto;
-}
-
 #three {
     width: 30%;
     height: 30%;
@@ -272,18 +144,7 @@ h2 {
     left: 40px;
     bottom: 55px;
 }
-
-#portfolio {
-    border-style: solid;
-    overflow: auto;
-    width: 470px;
-    height: 800px;
-    position: relative;
-    left: 75px;
-    border-color: #dddddd
-}
-
-#hthree {
+#eight {
     color: #4aaaa5;
     font-family: 'georgia', times, 'times new roman', serif;
     font-size: 20px;
@@ -291,3 +152,164 @@ h2 {
     bottom: 200px;
     background-color: white;
 }
+#connects {
+    float: right;
+    border-style: solid;
+    border-color: #dddddd;
+    position: relative;
+    left: 400px;
+    bottom: 725px;
+    padding: 20px;
+    padding-top: 10px;
+    overflow: auto;
+    background-color: white;
+}
+
+/* end portfolio css */
+
+/* index css */
+
+#self {
+    width: 33%;
+    height: 33%;
+    padding-left: 20px;
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+#connect {
+    float: left;
+    overflow: auto;
+    border-style: solid;
+    border-color: #dddddd;
+    position: relative;
+    left: 1150px;
+    bottom: 450px;
+    padding: 20px;
+    padding-top: 10px;
+    background-color: white;
+}
+#info {
+    font-weight: bold;
+    font-family: 'georgia', times, "times new roman", serif;
+    color: #4aaaa5;
+    border-bottom-color: solid;
+    padding-left: 40px;
+}
+
+/* end index css */
+
+/* contact css */
+#message {
+    width: 75%;
+    height: 200px;
+}
+
+#name2 {
+    width: 75%;
+}
+
+#email {
+    width: 75%;
+}
+
+.name {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #777777
+}
+
+/* end contact css */
+
+/* all three css */
+#about {
+    float: right;
+    position: relative;
+    font-family: 'georgia', times, 'times new roman', serif;
+    color: gray;
+    overflow: auto
+}
+
+#port {
+    float: right;
+    position: relative;
+    font-family: 'georgia', times, 'times new roman', serif;
+    color: gray;
+    overflow: auto
+}
+
+#con {
+    float: right;
+    position: relative;
+    font-family: 'georgia', times, 'times new roman', serif;
+    color: gray;
+    overflow: auto
+}
+/* end all three css */
+
+
+
+
+
+
+
+
+
+
+#htwo {
+    color: #4aaaa5;
+    font-family: 'georgia', times, 'times new roman', serif;
+    font-size: 20px;
+    background-color: white;
+}
+
+
+
+
+#linkdin {
+    width: 50px;
+    height: 50px
+}
+
+#github {
+    width: 50px;
+    height: 50px
+}
+
+
+#foot {
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+}
+
+#form {
+    float: left;
+    overflow: auto;
+    width: 75%;
+    border: solid;
+    margin-left: 25%;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-color: #dddddd
+}
+
+
+
+h2 {
+    font-weight: bold;
+    font-family: 'georgia', times, "times new roman", serif;
+    color: #4aaaa5;
+    border-bottom-color: solid;
+    padding-left: 40px;
+}
+
+
+
+
+#footer {
+    float: left;
+    overflow: auto;
+}
+
+
